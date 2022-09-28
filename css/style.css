@@ -41,6 +41,30 @@ header {
     background-color: var(--white);
 }
 #portfolio .star:before, #portfolio .star:after {background-color: var(--black);}
+.vz_overlay {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.vz_overlay::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '+';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: var(--white);
+    background-color: rgb(26, 188, 156,0.5);
+    opacity: 0;
+    transition: opacity 800ms;
+}
+.vz_overlay:hover:after { opacity: 1;}
 /* FOOTER */
 #foot-bottom {
     height: 100px;
