@@ -1,0 +1,28 @@
+:root {
+    --white: white;
+    --black: rgb(51, 51, 51);
+    --deepblue: rgb(44, 62, 80);
+    --bluegray: rgb(58, 84, 109);
+    --green: rgb(22, 143, 120);
+    --darkgray: gray;
+}
+body {
+    background-color: var(--white);
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* GENERAL */
+.vz_bg-deepblue { background-color: var(--deepblue);}
+.vz_bg-green { background-color: var(--green);}
+.vz_bg-bluegray {background-color: var(--bluegray);}
+.vz_txt-black {color: var(--black);}
+/* HEADER */
+header {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* MAIN */
+#hero { padding-top: 100px;}
