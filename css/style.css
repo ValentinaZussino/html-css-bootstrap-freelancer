@@ -16,6 +16,7 @@ body {
 .vz_bg-green { background-color: var(--green);}
 .vz_bg-bluegray {background-color: var(--bluegray);}
 .vz_txt-black {color: var(--black);}
+.vz_txt-green { color: var(--green);}
 /* HEADER */
 header {
     width: 100%;
@@ -67,6 +68,19 @@ header {
 }
 .vz_overlay:hover:after { opacity: 1;}
 /* FOOTER */
+#foot-top .vz_social {
+    width: 45px;
+    height: 45px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    line-height: 45px;
+    margin-right: 10px;
+}
+#foot-top .vz_social a {
+    color: var(--white);
+}
+#foot-top .stboot-hover:hover { text-decoration: underline!important;
+color: var(--green);}
 #foot-bottom {
     height: 100px;
     font-size: 12px;
