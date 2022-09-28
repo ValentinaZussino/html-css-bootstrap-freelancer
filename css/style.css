@@ -27,12 +27,33 @@ header {
 /* MAIN */
 #hero { padding-top: 100px;}
 #hero img.avatar {
-    width: 70%;
+    width: 50%;
     max-width: 100%;
+}
+.star {
+    width: 250px;
+}
+.star:before, .star:after {
+    content: '';
+    display: block;
+    width: 25%;
+    height: 3px;
+    background-color: var(--white);
 }
 /* FOOTER */
 #foot-bottom {
     height: 100px;
     font-size: 12px;
     padding-top: 35px;
+}
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+    .star:before, .star:after { width: 35%;}
+    div.star {
+        justify-content: space-between!important;
+    }
+}  
+@media screen and (min-width: 992px) {
+    .star { width: 280px;}
+    .star:before, .star:after { width: 38%;}
 }
