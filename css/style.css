@@ -40,6 +40,7 @@ header {
     height: 3px;
     background-color: var(--white);
 }
+#portfolio .star:before, #portfolio .star:after {background-color: var(--black);}
 /* FOOTER */
 #foot-bottom {
     height: 100px;
