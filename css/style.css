@@ -23,6 +23,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 900;
 }
 /* MAIN */
 #hero { padding-top: 100px;}
@@ -76,6 +77,9 @@ header {
     .star:before, .star:after { width: 35%;}
     div.star {
         justify-content: space-between!important;
+    }
+    #about div.row {
+        width: 90%!important;
     }
 }  
 @media screen and (min-width: 992px) {
