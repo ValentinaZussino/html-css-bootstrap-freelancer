@@ -11,20 +11,41 @@
     <title>Bootstrap Freelancer</title>
 </head>
 <body>
+    <!-- header -->
     <header class="vz_bg-deepblue">
         <nav>
-
+            <div class="container-md"></div>
         </nav>
     </header>
+    <!-- main -->
     <main>
-        <section id="hero" class="vz_bg-green"> hero </section>
-        <section class="vz_txt-black"> portfolio </section>
-        <section class="vz_bg-green"> about </section>
-        <section class="vz_txt-black"> contact </section>
+        <!-- hero -->
+        <section id="hero" class="vz_bg-green">
+            <div class="container-md">
+                <div class="row justify-content-center">
+                    <div class="col-auto text-center">
+                        <img class="avatar pb-3" src="./img/avatar.svg" alt="avatar">
+                        <h1 class="text-uppercase">Start Boostrap</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="vz_txt-black">
+            <div class="container-md">portfolio</div>
+        </section>
+        <section id="about" class="vz_bg-green">
+            <div class="container-md">about</div>
+        </section>
+        <section id="contact" class="vz_txt-black">
+            <div class="container-md">contact</div>
+        </section>
     </main>
+    <!-- footer -->
     <footer>
-        <div class="vz_bg-bluegray">footer top</div>
-        <div class="vz_bg-deepblue">footer bottom</div>
+        <div id="foot-top" class="vz_bg-bluegray">
+            <div class="container-md">footer top</div>
+        </div>
+        <div id="foot-bottom" class="vz_bg-deepblue text-center"><span>Copyright &copy; Your Website 2019</span></div>
     </footer>
 </body>
 </html>
