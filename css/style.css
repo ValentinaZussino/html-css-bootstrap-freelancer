@@ -6,6 +6,7 @@
     --green: rgb(26, 188, 156);
     --darkgray: gray;
 }
+html { scroll-padding-top: 50px;}
 body {
     background-color: var(--white);
     color: var(--white);
@@ -20,21 +21,19 @@ body {
 /* HEADER */
 header {
     width: 100%;
-    height: 90px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 900;
 }
+#boot-navbar .nav-link:hover, .navbar-toggler:hover, .fa-solid.fa-bars:hover { color: var(--green);}
 /* MAIN */
 #hero { padding-top: 100px;}
 #hero img.avatar {
     width: 50%;
     max-width: 100%;
 }
-.star {
-    width: 250px;
-}
+.star { width: 250px;}
 .star:before, .star:after {
     content: '';
     display: block;
