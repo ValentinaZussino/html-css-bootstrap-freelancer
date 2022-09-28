@@ -41,7 +41,7 @@ header {
     height: 3px;
     background-color: var(--white);
 }
-#portfolio .star:before, #portfolio .star:after {background-color: var(--black);}
+#portfolio .star:before, #portfolio .star:after, #contact .star:before, #contact .star:after  {background-color: var(--black);}
 .vz_overlay {
     cursor: pointer;
     position: relative;
@@ -78,9 +78,7 @@ header {
     div.star {
         justify-content: space-between!important;
     }
-    #about div.row {
-        width: 90%!important;
-    }
+    #about div.row {width: 80%!important;}
 }  
 @media screen and (min-width: 992px) {
     .star { width: 280px;}
